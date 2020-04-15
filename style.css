@@ -47,8 +47,12 @@
 /* Banner Area */ 
 
 .site-main .site-banner {
-    background: url(../img/banner/iotfinal.png) no-repeat 0% 50%;
+    background:  no-repeat 0% 50%;
 }
+.site-main .site-banner {
+    background: url(./img/banner/iotfinal.png) no-repeat 0% 50%;
+}
+
 
 .site-main .site-banner .site-title h3{
     padding-top: 35%;
@@ -70,6 +74,7 @@
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
     width: 90rem;
+
 }
 
 
@@ -204,7 +209,7 @@
 /* Subscribe me */ 
 
 .site-main .subscribe-us-area .subscribe{
-    background: url(../img/banner/message1.png) no-repeat;
+    background: url(./img/banner/message1.png) no-repeat;
     padding: 10rem ;
     margin: auto;
 }
@@ -244,7 +249,7 @@
 
 footer.footer-area{
     padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    background: url(./img/footer-bg.png) no-repeat;
 }
 
 footer.footer-area .social h5{
